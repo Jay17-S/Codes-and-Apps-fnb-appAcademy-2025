@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"name": "Admin",
+			"path": "../../.."
+		}
+	],
+	"settings": {
+		"sqltools.connections": [
+			{
+				"previewLimit": 50,
+				"server": "localhost",
+				"port": 5432,
+				"driver": "PostgreSQL",
+				"name": "priduction",
+				"database": "CREATE_TABLES",
+				"username": "war-machine"
+			}
+		],
+		"mssql.applyLocalization": true
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-mssql.mssql"
+		]
+	}
+}
